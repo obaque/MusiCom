@@ -1,0 +1,66 @@
+body {
+    background: black;
+    color: white;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px pink;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.chamada {
+    background: darkred;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.roleta{
+    display: flex;
+    overflow-x: scroll;
+    gap: 5px;    
+}
+
+.recomendo {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+
+}
+
+.roleta img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.roleta img:hover {
+    opacity: 1.0;
+    border: 1px solid black;
+
+}
+  
+.recomendo h2 {
+    color: white;
+}
